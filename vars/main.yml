@@ -1,0 +1,10 @@
+---
+# vars file for beats
+
+beats_supported_package_names:
+  - topbeat
+  - filebeat
+  - packetbeat
+
+beats_config: "" # Allows beats_config to be defined inline instead of
+                 # in a variable block.
