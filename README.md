@@ -1,7 +1,7 @@
 ansible-beats
 ====================
 
-[![Build Status](https://travis-ci.org/jmatt/ansible-beats.svg?branch=master)](https://travis-ci.org/jmatt/ansible-beats)
+[![Build Status](https://travis-ci.org/lsst-sqre/ansible-beats.svg?branch=master)](https://travis-ci.org/lsst-sqre/ansible-beats)
 
 Install and configure Elastic [beats](https://www.elastic.co/products/beats) v5 for LSST SQuaRE infrastructure.
 
@@ -10,7 +10,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: jmatt.beats }
+         - { role: lsst-sqre.beats }
 
 Variables
 ---------
