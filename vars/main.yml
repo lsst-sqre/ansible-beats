@@ -2,7 +2,7 @@
 # vars file for beats
 
 beats_supported_package_names:
-  - topbeat
+  - metricbeat
   - filebeat
   - packetbeat
 
