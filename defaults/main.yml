@@ -3,3 +3,5 @@
 beats_package_name: metricbeat
 beats_package_version: 5.2.2
 beats_install: true
+beats_config: "" # Allows beats_config to be defined inline instead of
+                 # in a variable block.
